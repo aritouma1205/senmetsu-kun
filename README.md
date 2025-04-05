@@ -25,32 +25,6 @@
 4. 指定した文字列が含まれるポストは自動的に非表示になります。
 ※その文字列がユーザー名、ユーザーIDに含まれる場合はそのユーザーのポストすべてが非表示にされます。
 
-## 開発
-
-### 必要な環境
-
-- Chromeブラウザ
-- JavaScript
-
-### ファイル構成
-
-/せんめつくん
-│
-├── icon/
-│   └── light.png          # アイコン画像
-│
-├── css/
-│   └── materialize.min.css # スタイルシート
-│
-├── js/
-│   └── materialize.min.js  # JavaScriptライブラリ
-│
-├── popup.html              # ポップアップのHTML
-├── popup.js                # ポップアップのJavaScript
-├── content.js              # コンテンツスクリプト
-└── style.css               # カスタムスタイルシート
-
-
 ## 注意事項
 
 - 拡張機能の動作には、Chromeブラウザが必要です。
