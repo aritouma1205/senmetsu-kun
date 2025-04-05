@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>せんめつくん</title>
+    <!-- ナズちゃんの心の平穏を守護りたい・・・！ -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-field">
+            <input type="text" id="inputText" placeholder="殲滅対象を入力">
+            <button id="addButton" class="btn waves-effect waves-light">+</button>
+        </div>
+
+        <div class="dropdown">
+            <div class="header">
+                <div>
+                    <img id="toggle" class="toggle" src="icon/right.png" alt="Toggle">
+                </div>
+                <span>殲滅対象</span>
+            </div>
+            <div id="stringSelect" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>
